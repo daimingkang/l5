@@ -23,5 +23,6 @@ class QqmailController extends Controller
             $message->to($data['email'], $data['name'])->subject($data['title']);
         });
         return $re;
+
     }
 }
